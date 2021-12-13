@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SFML Managers">
+      <UniqueIdentifier>{f0756f4e-a70b-49de-b11d-f9453025ba55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML Screens">
+      <UniqueIdentifier>{03984f74-e19c-452f-8e2e-d5cc5d9e3ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML Screens Header">
+      <UniqueIdentifier>{ba6abd35-0600-4379-bdc6-f9f54593042b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCV">
+      <UniqueIdentifier>{7fed475b-acb3-4afd-8cc0-616f6704d57e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{d12ec700-9e20-4dc7-8316-1eeca1e1942d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalCommands.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>SFML Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonManager.cpp">
+      <Filter>SFML Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>SFML Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="menuScreen.cpp">
+      <Filter>SFML Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="opencvCamera.cpp">
+      <Filter>OpenCV</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherOne.cpp">
+      <Filter>SFML Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSelect.cpp">
+      <Filter>SFML Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreScreen.cpp">
+      <Filter>SFML Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="UserData.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginScreen.cpp">
+      <Filter>SFML Screens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>SFML Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonManager.h">
+      <Filter>SFML Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>SFML Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opencvCamera.h">
+      <Filter>OpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="menuScreen.h">
+      <Filter>SFML Screens Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherOne.h">
+      <Filter>SFML Screens Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSelect.h">
+      <Filter>SFML Screens Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreScreen.h">
+      <Filter>SFML Screens Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginScreen.h">
+      <Filter>SFML Screens Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="asl.py">
+      <Filter>OpenCV</Filter>
+    </None>
+  </ItemGroup>
+</Project>
